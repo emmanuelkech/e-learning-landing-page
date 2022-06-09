@@ -24,13 +24,15 @@ Users should be able to:
 
 ### Screenshot
 
-![]()
+![](./preview/desktop.png)
+![](./preview/tablet.png)
+![](./preview/mobile.png)
 
 
 ### Links
 
-- Solution URL: [github]()
-- Live Site URL: [github pages]()
+- Solution URL: [github](https://github.com/emmanuelkech/e-learning-landing-page)
+- Live Site URL: [github pages](https://emmanuelkech.github.io/e-learning-landing-page/)
 
 ## My process
 
@@ -38,14 +40,12 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- Mobile-first workflow
-- JavaScript
+- CSS Grid
 
 
 ## Author
 
-- Website - [https://emmanuelkech.github.io/interactive-rating-component/]()
+- Website - [https://emmanuelkech.github.io/e-learning-landing-page/](https://emmanuelkech.github.io/e-learning-landing-page/)
 - Frontend Mentor - [@emmanuelkech](https://www.frontendmentor.io/profile/emmanuelkech)
 - Twitter - [@perfectdynamite](https://www.twitter.com/perfectdynamite)
 - LinkedIn - [Emmanuel Ikechukwu](https://www.linkedin.com/in/emmanuel-ikechukwu-018032b4/)
