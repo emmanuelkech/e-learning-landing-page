@@ -5,8 +5,9 @@
 
 html, body {
     margin: 0 auto;
-    height: 100%;
-    background: linear-gradient(0deg, #e3d9e2 0%, #FFFFFF 100%);
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
     background-attachment: fixed;
 }
 
@@ -41,6 +42,20 @@ header, footer {
     padding: 4em;
 }
 
+.intro-image-mobile {
+    display: none;
+}
+
+.intro-image-tablet {
+    display: none;
+}
+
+.intro-image-desktop {
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 .intro-btn {
     background: linear-gradient(0deg, #F02AA6 0%, #FF6F48 100%);
@@ -56,6 +71,7 @@ header, footer {
     grid-gap: 20px;
     padding: 4em;
 }
+
 
 .check {
     background: linear-gradient(0deg, #F02AA6 0%, #FF6F48 100%);
@@ -117,10 +133,20 @@ selectors have been executed */
         grid-gap: 20px;
     }
 
-    .intro-img {
-        content: url('./assets/image-hero-mobile.png');
-        display: flex;
-        justify-content: center;
+    .intro-image-mobile {
+        margin-top: 48px;
+        margin-top: 3rem;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .intro-image-tablet {
+        display: none;
+    }
+    
+    .intro-image-desktop {
+        display: none;
     }
 
     .grid {
@@ -138,10 +164,20 @@ selectors have been executed */
         grid-gap: 20px;
     }
 
-    .intro-img {
-        content: url('./assets/image-hero-tablet.png');
-        display: flex;
-        justify-content: right;
+    .intro-image-mobile {
+        display: none;
+    }
+    
+    .intro-image-tablet {
+        margin-top: 48px;
+        margin-top: 3rem;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .intro-image-desktop {
+        display: none;
     }
 
     .grid {
@@ -159,8 +195,19 @@ selectors have been executed */
         grid-gap: 20px;
     }
 
-    .intro-img {
-        content: url('./assets/image-hero-desktop.png');
+    .intro-image-mobile {
+        display: none;
+    }
+    
+    .intro-image-tablet {
+        display: none;
+    }
+    
+    .intro-image-desktop {
+        margin-top: 3rem;
+        width: 100%;
+        height: auto;
+        display: block;
     }
 
     .grid {
