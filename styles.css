@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
 * {
     font-family: 'Plus Jakarta Sans', sans-serif;
     box-sizing: border-box;
@@ -29,6 +31,7 @@ header, footer {
 
 .header-btn {
     background-color: #13183F;
+    width: 8rem;
 }
 
 .header-btn:hover {
@@ -111,11 +114,12 @@ h4:hover {
 
 .top-btn, .bottom-btn {
     display: flex;
-    justify-content: right;
+    justify-content: right;    
 }
 
 .footer-btn {
     background: linear-gradient(0deg, #F02AA6 0%, #4851FF 100%);
+    width: 8rem;
 }
 
 .footer-btn:hover {
@@ -167,6 +171,12 @@ selectors have been executed */
     .intro-image-mobile {
         display: none;
     }
+
+    .intro-img-container {
+        display: flex;
+        justify-content: right;
+        width: 20rem;       
+    }
     
     .intro-image-tablet {
         margin-top: 48px;
@@ -187,8 +197,8 @@ selectors have been executed */
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 992px) {
     .intro {
         display: grid;    
         grid-template-columns: repeat(2, 1fr);
@@ -201,6 +211,12 @@ selectors have been executed */
     
     .intro-image-tablet {
         display: none;
+    }
+
+    .intro-img-container {
+        display: flex;
+        justify-content: right;
+        width: 35rem;       
     }
     
     .intro-image-desktop {
